@@ -49,21 +49,4 @@ public class Main {
         return index;
     }
 
-    // public static void main(String[] args) {
-    //     NhanVien[] aNhanViens;
-    //     int n;
-    //     System.out.println("Nhap so luong nhan vien: ");
-    //     Scanner sc = new Scanner(System.in);
-    //     n = sc.nextInt();
-    //     aNhanViens = new NhanVien[n];
-    //     for (int i = 0; i < n; i++) {
-    //         aNhanViens[i] = new NhanVien();
-    //         aNhanViens[i].nhap();
-    //     }
-    //     System.out.println("Tong luong: " + tinhTongLuong(aNhanViens));
-    //     System.out.println("Nhan vien co luong cao nhat: ");
-    //     aNhanViens[luongCaoNhat(aNhanViens)].display();
-
-    // }
-   
-}
+ 

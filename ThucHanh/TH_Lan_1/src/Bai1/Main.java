@@ -27,17 +27,7 @@ public class Main {
         aNhanViens[luongCaoNhat(aNhanViens)].display();
 
     }
-    // public static int luongCaoNhat(NhanVien[] aNhanViens) {
-    //     int index = 0;
-    //     int max = aNhanViens[0].tinhLuong();
-    //     for (int i = 0; i < aNhanViens.length; i++) {
-    //         if (aNhanViens[i].tinhLuong() > max) {
-    //             max = aNhanViens[i].tinhLuong();
-    //             index = i;
-    //         }
-    //     }
-    //     return index;
-    // }
+   
 
     public static int tinhTongLuong(NhanVien[] aNhanViens) {
         int sum = 0;
